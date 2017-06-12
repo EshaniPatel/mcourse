@@ -1,0 +1,10 @@
+#monsterhead{
+    width: 200px;
+    height: 200px;
+    background: #ffcc00;
+}
+#monsterbody{
+    width: 200px;
+    height: 400px;
+    background: #000000;
+}

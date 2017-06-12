@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+       <script type="text/javascript">
+        $(document).ready(talk);
+        function talk(){
+        $("#monsterbody").on("click",tickle);
+        }
+        function tickle(){
+        alert("Ha ha ha! Snort!");
+        }
+        </script>
+        
+        <div id="monsterhead"> THIS IS THE HEAD </div>
+        <div id="monsterbody"> THIS IS THE BODY </div>
+    </body>
+</html>
