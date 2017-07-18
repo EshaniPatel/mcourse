@@ -8,3 +8,9 @@
     height: 400px;
     background: #000000;
 }
+
+.btn-play{
+    padding: 20px;
+    border-color: #000000;
+    background-color: #cccccc;
+}
