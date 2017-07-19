@@ -1,97 +1,12 @@
-.monster-container {
-  position: relative;
-  margin: 20px;
+#monster-head{
+    height: 100px;
+    background-color: #000000;
+    width: 100px;
+    border-radius: 50px;
 }
-
-.monster {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background: #eaa236;
-  border-radius: 100%;
-}
-
-.monster:before, .monster:after {
-position: absolute;
-content: '';
-width: 20px;
-height: 30px;
-background: #eaa236;
-}
-
-.monster:before {
-  left: 20px;
-  border-radius: 100% 0 0 0;
-}
-.monster:after {
-  left: 110px;
-  border-radius: 0 100% 0 0;
-}
-
-.hair {
-  position: absolute;
-  top: -2px;
-  left: 67px;
-  width: 10px;
-  height: 10px;
-  background: #eaa236;
-  border-radius: 100% 0 100% 100%;
-  transform: rotate(-20deg);
-}
-
-.hair:before {
-  position: absolute;
-  content: '';
-  top: 3px;
-  left: 10px;
-  width: 10px;
-  height: 10px;
-  background: #eaa236;
-  border-radius: 100% 0 100% 100%;
-}
-
-
-
-.eyes {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background: #FFF;
-  top: 50px;
-  left: 30px;
-  border-radius: 100%;
-}
-.eyes:before {
-  position: absolute;
-  content: '';
-  width: 30px;
-  height: 30px;
-  background: #FFF;
-  left: 70px;
-  border-radius: 100%;
-}
-
-.iris {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: #59C3C3;
-  border-radius: 100%;
-  top: 5px;
-  left: 7px;
-}
-.iris:before {
-  position: absolute;
-  content: '';
-  width: 20px;
-  height: 20px;
-  background: #59C3C3;
-  border-radius: 100%;
-  left: 66px;
-}
-
-.face {
-  position: absolute;
-  left: -3px;
-  transition: all 0.5s ease;
+#monster-body{
+    height: 200px;
+    background-color: #ffcc00;
+    width: 150px;
+    border-radius: 50px;
 }
