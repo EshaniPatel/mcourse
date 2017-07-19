@@ -18,13 +18,4 @@ $(document).ready(initialize);
 
 function initialize(){
     console.log("APP: Initialized....");
-    
-    $("#monster-body").on("click",tickleMonster);
-}
-
-function tickleMonster(){
-    console.log("APP: tickleMonster() called");
-    
-    //alert("HEE HEE HEE!!");
-    myApp.alert('Hee Hee! I like tickling! Soooo fun!', 'Albert says....');
 }
