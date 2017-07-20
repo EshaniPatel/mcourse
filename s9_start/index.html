@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Albert Monster</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+      
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+      
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+      
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <p>Settings</p>
+      </div>
+    </div>
+      
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="left">
+              <!-- Left link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+              <!-- We have home navbar without right link-->
+            <div class="center sliding">Hubert</div>
+          </div>
+        </div>
+          
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content" id="page-monster">
+            
+                <!--MONSTER CONTAINER-->
+                <div class="monster-container">
+                      <div class="monster"></div>
+                      <div class="hair"></div>
+                      <div class="face">
+                        <div class="eyes">
+                          <div class="iris" id="monster-iris"></div>
+                        </div>
+                      </div>
+                      <div class="mouth" id="monster-mouth"></div>
+                      <div class="teeth">
+                        <div></div>
+                        <div></div>
+                      </div>
+                        
+                        <div class="tie">
+                          <div class="stripe one"></div>
+                          <div class="stripe two"></div>
+                          <div class="stripe three"></div>
+                        </div>
+                        
+                      <div class="mbody">
+                        <div class="hand"></div>
+                        <div class="hand right"></div>
+                      </div>
+                        
+                      <div class="leg">
+                        <div class="nail"></div>
+                        <div class="nail one"></div>
+                        <div class="nail two"></div>
+                      </div>
+
+                      <div class="leg two">
+                        <div class="nail"></div>
+                        <div class="nail one"></div>
+                        <div class="nail two"></div>
+                      </div>
+                        
+                    
+                </div>    
+                
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
